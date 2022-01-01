@@ -11,8 +11,10 @@ import {
   ChevronDownIcon,
 } from "@heroicons/react/outline";
 import HeaderIcon from "./HeaderIcon";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 function Header() {
+  const { data: session } = useSession();
   return (
     <header className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
       {/* left */}
@@ -44,13 +46,22 @@ function Header() {
       </div>
       {/* right */}
       <div className="flex items-center sm:space-x-2 justify-end">
-        {/* <Image 
-                src={}
-                width={}
-                height={}
-                alt=""/> */}
+        <Image
+          className="rounded-full cursor-pointer"
+          onClick={signOut}
+          src={session.user.image}
+          height={40}
+          width={40}
+          layout="fixed"
+          alt="Profile"
+        />
+        <div>
+          <p className="whitespace-nowrap font-semibold pr-3 cursor-pointer">
+            {session.user.name}
+          </p>
+          <p className="whitespace-nowrap text-xs pr-3">{session.user.email}</p>
+        </div>
 
-        <p className="whitespace-nowrap font-semibold pr-3">Sachin Shelke</p>
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />
         <BellIcon className="icon" />
