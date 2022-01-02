@@ -4,7 +4,10 @@ import { useSession } from "next-auth/react";
 import { VideoCameraIcon } from "@heroicons/react/outline";
 import { CameraIcon, EmojiHappyIcon } from "@heroicons/react/solid";
 import { db, storage } from "../firebase";
-import firebase from "firebase";
+// import firebase from "firebase";
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth"
+import "firebase/compat/firestore"
 
 function InputBox() {
   const { data: session } = useSession();
