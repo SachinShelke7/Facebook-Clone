@@ -7,7 +7,6 @@ function Posts() {
   const [realtimePosts] = useCollection(
     db.collection("posts").orderBy("timestamp", "desc")
   );
-
   return (
     <div>
       {realtimePosts?.docs.map((post) => {
@@ -21,6 +20,7 @@ function Posts() {
           postImage={post.data().postImage}
         />;
       })}
+
     </div>
   );
 }
