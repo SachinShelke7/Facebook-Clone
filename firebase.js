@@ -3,15 +3,6 @@ import "firebase/compat/auth"
 import "firebase/compat/firestore"
 import "firebase/compat/storage";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDDJMtNTrmIfxWH-HDeBXGHeBgYDjoMBBQ",
-  authDomain: "fb-5yt.firebaseapp.com",
-  projectId: "fb-5yt",
-  storageBucket: "fb-5yt.appspot.com",
-  messagingSenderId: "1008148044653",
-  appId: "1:1008148044653:web:e1a3bc82adaa0680b71864",
-};
-{/*
   const firebaseConfig = {
   apiKey: "AIzaSyAATBVxfG6cL9Gf01P-DXFbCNk7jKrgzNI",
   authDomain: "facebook-48eec.firebaseapp.com",
@@ -21,7 +12,6 @@ const firebaseConfig = {
   appId: "1:803433331336:web:7427e2171b17c38bdebd3d",
   measurementId: "G-DVJ8Z53TWT",
 };
- */}
 
 
 const app = !firebase.apps.length
