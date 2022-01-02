@@ -4,7 +4,7 @@ import React from 'react'
 function SidebarRow({ src, Icon, title }) {
     
     return (
-        <div className='flex item-center space-x-2 p-4 hover:bg-gray-100'>
+        <div className='flex item-center space-x-2 p-4 hover:bg-gray-200'>
             {src && (
         <Image
         className="rounded-full"

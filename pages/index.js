@@ -4,11 +4,12 @@ import Feed from "../components/Feed";
 import Header from '../components/Header'
 import Login from '../components/Login'
 import Sidebar from "../components/Sidebar";
+import Widgets from "../components/Widgets";
 
 export default function Home({ session }) {
   if (!session) return <Login />
   return (
-      <div className="bg-gray-200">
+      <div className="bg-gray-100">
         <Head>
           <title>
             Facebook
@@ -22,6 +23,7 @@ export default function Home({ session }) {
           {/* feed */}
           <Feed />
           {/* Widgets */}
+          <Widgets />
         </main>
       </div>
   )
