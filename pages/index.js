@@ -6,8 +6,10 @@ import Login from '../components/Login'
 import Sidebar from "../components/Sidebar";
 import Widgets from "../components/Widgets";
 
+
 export default function Home({ session }) {
   if (!session) return <Login />
+
   return (
       <div className="bg-gray-100">
         <Head>
