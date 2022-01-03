@@ -3,9 +3,9 @@ import React from 'react'
 
 function StoryCard({ name, src, profile }) {
     return (
-        <div className='relative h-14 w-14 md:h-20 md:w-20 lg:h-56 lg:w-32 cursor-pointer p-3 transition duration-200 transform ease-in hover:scale-105'>
+        <div className='relative h-14 w-14 md:h-20 md:w-20 lg:h-56 lg:w-32 cursor-pointer p-3 transition duration-100 transform ease-in hover:scale-105 hover:animate-pulse'>
             <Image 
-            className="absolute opacity-0 lg:opacity-100 rounded-full z-40 top-10"
+            className="absolute opacity-0 lg:opacity-100 rounded-full z-40 top-10 border-2 border-red-600"
             src={profile}
             width={40}
             height={40}
@@ -14,7 +14,7 @@ function StoryCard({ name, src, profile }) {
             alt='Photo'
             />
             <Image 
-            className="object-cover filter brightness-75 rounded-full lg:rounded-3xl"
+            className="object-cover filter brightness-75 rounded-full lg:rounded-2xl"
             src={src}
             layout="fill"
             alt='ImageP'
