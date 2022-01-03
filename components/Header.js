@@ -58,10 +58,10 @@ function Header() {
           alt="Profile"
         />
         <div>
-          <p className="whitespace-nowrap font-semibold pr-3 cursor-pointer">
+          <p className="whitespace-nowrap font-semibold pr-3 cursor-pointer hidden sm:inline-flex">
             {session.user.name}
           </p>
-          <p className="whitespace-nowrap text-xs pr-3">{session.user.email}</p>
+          <p className="whitespace-nowrap text-xs pr-3 hidden sm:inline-flex">{session.user.email}</p>
         </div>
 
         <ViewGridIcon className="icon" />
