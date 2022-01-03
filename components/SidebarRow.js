@@ -12,6 +12,7 @@ function SidebarRow({ src, Icon, title }) {
         height={30}
         width={30}
         layout="fixed"
+        alt='PPic'
       />
             )}
             {Icon && (

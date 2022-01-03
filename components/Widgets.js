@@ -19,10 +19,6 @@ const contacts = [
       name: "James Bond",
       src: "https://links.papareact.com/r57",
     },
-    {
-      name: "Sachin Shelke",
-      src: "https://links.papareact.com/",
-    },
   ];
 
 import {
