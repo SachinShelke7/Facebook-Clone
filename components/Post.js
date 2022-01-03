@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function Post({ name, message, email, postImage, image, timestamp }) {
+function Post({ name, massage, email, postImage, image, timestamp }) {
   
   return (
     <div className="flex flex-col">
@@ -12,7 +12,7 @@ function Post({ name, message, email, postImage, image, timestamp }) {
             width={40}
             height={40}
             className="rounded-full"
-            alt=""
+            alt="Profile"
           />
           <div>
             <p className="font-medium">{name}</p>
@@ -20,14 +20,14 @@ function Post({ name, message, email, postImage, image, timestamp }) {
               {new Date(timestamp?.toDate()).toLocaleString()}
             </p>
           </div>
-          <p className="pt-4">{message}</p>
         </div>
-        {postImage && (
+        <p className="pt-4 text-gray-800">{massage}</p>
+      </div>
+      {postImage && (
           <div className="relative h-56 md:h-96 bg-white">
             <Image src={postImage} objectFit="cover" layout="fill" />
           </div>
         )}
-      </div>
     </div>
   );
 }

@@ -14,10 +14,10 @@ function Posts() {
         <Post
           key={post.id}
           name={post.data().name}
-          message={post.data().message}
+          massage={post.data().massage}
           email={post.data().email}
           timestamp={post.data().timestamp}
-          userimage={post.data().image}
+          image={post.data().image}
           postImage={post.data().postImage}
         />
         ))}
