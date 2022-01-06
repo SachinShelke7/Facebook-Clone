@@ -5,13 +5,13 @@ import "firebase/compat/storage";
 
 
   const firebaseConfig = {
-    apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.FIREBASE_PROJECT_ID,
-    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.FIREBASE_APPID,
-  measurementId:  process.env.FIREBASE_M_ID,
+    apiKey:"AIzaSyAATBVxfG6cL9Gf01P-DXFbCNk7jKrgzNI",
+    authDomain:"facebook-48eec.firebaseapp.com",
+    projectId:"facebook-48eec",
+    storageBucket:"facebook-48eec.appspot.com",
+    messagingSenderId:"803433331336",
+    appId:"803433331336:web:7427e2171b17c38bdebd3d",
+    measurementId:"G-DVJ8Z53TWT",
 };
 
   
