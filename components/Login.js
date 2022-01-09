@@ -6,7 +6,7 @@ function Login() {
     return (
         <div className='flex flex-col justify-center items-center'>
             <Image 
-            src="https:links.papareact.com/t4i"
+            src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
             height={400}
             width={400}
             objectFit='contain'

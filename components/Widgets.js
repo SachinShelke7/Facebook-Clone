@@ -1,23 +1,23 @@
 const contacts = [
     {
-      name: "Elon Musk",
-      src: "https://links.papareact.com/kxk",
+      name: "Sachin Shelke",
+      src: "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=785&q=80",
     },
     {
-      name: "Mark Zuckerberg",
-      src: "https://links.papareact.com/snf",
+      name: "Prati Shinde",
+      src: "https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
     },
     {
-      name: "Bill Gates",
-      src: "https://links.papareact.com/zvy",
+      name: "Ranjeet Harishchandre",
+      src: "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80",
     },
     {
-      name: "Harry Potter",
-      src: "https://links.papareact.com/d0c",
+      name: "Abhi Shinde",
+      src: "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     },
     {
-      name: "James Bond",
-      src: "https://links.papareact.com/r57",
+      name: "Sagar Borude",
+      src: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     },
   ];
 

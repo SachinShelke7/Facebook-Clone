@@ -27,7 +27,7 @@ function Header() {
           priority
           alt="picture"
         />
-        <div className="flex ml-2 items-center rounded-full bg-gray-100 p-2">
+        <div className="hidden md:flex ml-2 items-center rounded-full bg-gray-100 p-2">
           <SearchIcon className="h-6 text-gray-600 mr-1" />
           <input
             type="text"
@@ -49,7 +49,7 @@ function Header() {
       {/* right */}
       <div className="flex items-center sm:space-x-2 justify-end">
         <Image
-          className="rounded-full cursor-pointer"
+          className="rounded-full cursor-pointer hover:scale-95"
           onClick={signOut}
           src={session.user.image}
           height={40}
@@ -57,12 +57,20 @@ function Header() {
           layout="fixed"
           alt="Profile"
         />
-        <div>
+        <div className="flex items-center justify-start">
+          <div>
           <p className="whitespace-nowrap font-semibold pr-3 cursor-pointer hidden sm:inline-flex">
             {session.user.name}
           </p>
           <p className="whitespace-nowrap text-xs pr-3 hidden sm:inline-flex">{session.user.email}</p>
+          </div>
+
+          <div className="px-2 md:px-0">
+          <p className="cursor-pointer bg-blue-600 rounded-md text-white hover:bg-blue-500 py-1 px-2" onClick={signOut}>Logout</p>
+          </div>
+
         </div>
+        
 
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />

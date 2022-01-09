@@ -7,6 +7,8 @@ module.exports = {
       "firebasestorage.googleapis.com",
       "sachinsp.epizy.com",
       "lh3.googleusercontent.com",
+      "images.unsplash.com",
+      "1000logos.net",
 
     ],
   },
